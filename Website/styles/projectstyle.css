@@ -1,0 +1,62 @@
+.div1 {
+    background-color: #D6E5E3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+#div2,
+#div3 {
+    height: auto; /* Changed height to auto for responsiveness */
+    text-align: left;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.img-thumbnail {
+    background-color: #a6b1e1;
+    border: none;
+}
+
+#div3 img {
+    border-radius: 50%;
+    width: 100%; /* Changed width to 100% for responsiveness */
+    height: auto; /* Changed height to auto for responsiveness */
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#div3 p {
+    margin: 10px 0;
+    font-size: 18px; /* Adjusted font size for better readability */
+    color: #333;
+}
+
+#about,
+#about2 {
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px; /* Adjusted top for better consistency */
+}
+
+#about2 {
+    margin-bottom: 40px; /* Added margin for better spacing */
+}
+
+#navbarNav {
+    justify-content: flex-end; /* Align navigation links to the right */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+footer {
+    padding: 30px 0;
+}

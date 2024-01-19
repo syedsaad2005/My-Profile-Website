@@ -1,0 +1,189 @@
+/* General styling for the body */
+body {
+    background: #F9F9F9;
+    font-size: 16px;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* Styling for the header section */
+.contact-header {
+    text-align: center;
+    padding: 50px 0;
+    background: #D6E5E3;
+}
+
+.contact-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #424874;
+}
+
+.contact-subheading {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #424874;
+}
+
+/* Styling for the main contact box */
+.contact-box {
+    background: #fff;
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left {
+    flex-basis: 65%;
+    padding: 20px 30px;
+}
+
+.contact-right {
+    flex-basis: 35%;
+    padding: 20px 30px;
+    background: #424874;
+    color: #DCD6F7;
+}
+
+/* Additional styling for heading elements */
+h1 {
+    margin-bottom: 20px;
+    color: #424874;
+}
+
+/* Additional styling for paragraph elements within the container */
+.container p {
+    margin-bottom: 20px;
+    color: #424874;
+}
+
+/* Styling for the email link */
+.email {
+    color: #F9E79F;
+    font-weight: bold;
+}
+
+/* Styling for input rows and input groups */
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-row .input-group {
+    flex-basis: 46%;
+}
+
+/* Styling for form inputs */
+input {
+    width: 100%;
+    max-width: 300px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+/* Styling for form textarea */
+textarea {
+    width: 100%;
+    max-width: 300px;
+    max-height: 150px;
+    padding: 10px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Styling for form labels */
+label {
+    margin-bottom: 5px;
+    display: block;
+    color: #A6B1B1;
+}
+
+/* Styling for form submit button */
+button {
+    background: #F9E79F;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for specific headings in contact sections */
+.contact-left h3 {
+    color: #424874;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-right h3 {
+    color: #424874;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Styling for specific table cells */
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .contact-right {
+        margin-top: 20px;
+    }
+}
+
+/* Styling for the welcome badge */
+.welcome-badge {
+    background-color: #a0f0a7;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+/* Navigation styling */
+#navbarNav {
+    justify-content: flex-end; /* Align navigation links to the right */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+/* Styling for the footer */
+footer {
+    padding: 30px 0;
+}

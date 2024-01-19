@@ -1,0 +1,75 @@
+.maindiv {
+    background-color: #cacfd6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 50px 0; /* Added padding for better spacing on smaller screens */
+}
+
+#div1, #div2, #div3, #div4 {
+    background-color: #a6b1e1;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px 0; /* Added margin for better spacing on smaller screens */
+}
+
+#about {
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px; /* Added margin for better spacing on smaller screens */
+}
+
+#img1, #img2, #img3, #img4 {
+    width: 100%; /* Make images responsive within their containers */
+    max-width: 150px; /* Set a maximum width for better scaling on smaller screens */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+
+#emp {
+    line-height: 1.5em; /* Improved line height for better readability */
+}
+
+.aboutEmp {
+    line-height: 1.5em; /* Improved line height for better readability */
+}
+
+.end {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+        sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+    margin-top: 40px; /* Added margin for better spacing on smaller screens */
+    text-align: center;
+}
+
+#login {
+    background-color: #cacfd6;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; /* Added margin for better spacing on smaller screens */
+    border: 2px solid black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the button */
+}
+#navbarNav {
+    justify-content: flex-end; /* Align navigation links to the right */
+}
+
+.navbar-brand {              /* Added styling for the navbar brand */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {         /* Added styling for the navigation links */
+    font-size: 16px;
+}
+
+footer {
+    padding: 30px 0;               /* Added padding for better spacing on smaller screens */
+}

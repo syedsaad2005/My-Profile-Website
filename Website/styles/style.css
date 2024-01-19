@@ -1,0 +1,102 @@
+/* Default styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D6E5E3;
+}
+
+/* Header styles */
+
+.navbar {
+  padding: 15px 0; /* Adjust the padding for the navbar */
+}
+
+.ml-auto {
+  display: flex;
+  align-items: center;
+}
+
+/* Home Section styles */
+
+.home-section {
+  position: relative;
+  width: 100%;
+  text-align: center; /* Center text within the home section */
+}
+
+.background-image img {
+  width: 100%;
+  height: auto;
+}
+
+.transparent-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  max-width: 80%; /* Adjust the maximum width as needed */
+}
+
+/* Card Container styles */
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+/* Review Section styles */
+
+.review-section {
+  background-color: #D6E5E3;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+
+footer {
+  color: #fff;
+  background-color: #343a40; /* Use a dark background color for the footer */
+  padding: 30px 0;
+  text-align: center;
+}
+
+#navbarNav {
+  justify-content: flex-end; /* Align navigation links to the right */
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+}
+
+footer {
+  padding: 30px 0;
+}
+
+/* Responsive styles */
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
